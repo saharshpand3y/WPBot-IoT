@@ -1,0 +1,22 @@
+{
+  "name": "gigachat",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "@wppconnect-team/wppconnect": "^1.29.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsdom": "latest",
+    "mongodb": "^5.9.2",
+    "node": "^19.8.1",
+    "puppeteer": "^24.1.1",
+    "request": "^2.88.2"
+  }
+}
